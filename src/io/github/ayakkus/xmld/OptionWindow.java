@@ -41,7 +41,7 @@ public class OptionWindow {
 		frm.setIconImage(logo);
 		frm.setResizable(false);
 		JPanel pnl = new JPanel();
-		pnl.setBackground(new Color(0x795548));
+		//pnl.setBackground(new Color(0x795548));
 		JButton btn1 = new JButton("How to use");
 		btn1.addActionListener(new ActionListener(){
 			@Override
